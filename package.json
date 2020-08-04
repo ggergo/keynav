@@ -1,12 +1,13 @@
 {
   "name": "keynav",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Keyboard navigation for websites and web-applications to speed up the professionals work-flow.",
   "private": false,
   "scripts": {
     "test": "jest",
     "build": "webpack --config webpack.config.js"
   },
+  "main": "./dist/main.js",
   "keywords": [
     "keyboard",
     "navigation"

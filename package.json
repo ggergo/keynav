@@ -1,13 +1,13 @@
 {
-  "name": "keynav",
-  "version": "0.2.0",
+  "name": "keynavsdfsdsfsdf",
+  "version": "0.3.0",
   "description": "Keyboard navigation for websites and web-applications to speed up the professionals work-flow.",
   "private": false,
   "scripts": {
     "test": "jest",
-    "build": "webpack --config webpack.config.js"
+    "build": "babel src -d dist"
   },
-  "main": "./dist/main.js",
+  "main": "./dist/index.js",
   "keywords": [
     "keyboard",
     "navigation"
@@ -16,14 +16,11 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.10.5",
+    "@babel/cli": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
     "babel-loader": "^8.1.0",
     "jest": "^26.1.0",
-    "jest-each": "^26.1.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
+    "jest-each": "^26.1.0"
   },
-  "dependencies": {
-    "uuid": "^8.3.0"
-  }
+  "dependencies": {}
 }
